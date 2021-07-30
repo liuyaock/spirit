@@ -556,7 +556,6 @@
         font-size: 1.1em;
         text-align: center;
         line-height: 1.7em;
-        margin-bottom: 6em;
     }
     
 
@@ -615,8 +614,8 @@
                     align-items: flex-start;
 
                     .thumb{
-                        width:25%;
-                        border-radius: 35px;
+                        width:19%;
+                        border-radius: 0%;
                         margin-right:1em;
                         flex-shrink: 0;
                     }
@@ -627,8 +626,13 @@
                         flex-wrap: wrap;
                         align-content: space-between;
 
+                        .name{
+                            font-size: 1.5em;
+                        }
+
                         .info{
                             text-align: left;
+                            font-size: 1.3em;
                         }
 
                         *{
@@ -648,6 +652,12 @@
                     .thumb{
                         width:20%;
                         border-radius: 5%;
+                    }
+
+                    .content{
+                        .info{
+                            font-size: 1.2em;
+                        }
                     }
                 }
             }
